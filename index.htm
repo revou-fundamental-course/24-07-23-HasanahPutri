@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hasanah Travel</title>
+    <link hrel="https://fonts.googleapis.com/css2?family-Quicksand:wght@500&display-swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- bagian header -->
+    <header>
+        <div class="headerNavigation">
+             <a href=""><img src="assets/logo.png"width="70" height="70"</a>
+             <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#ourpackage">Our Package</a></li>
+             <li><a href="#callus">Call Us</a></li>
+             </ul>  
+             <!-- menu mobile--> 
+             <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>                     
+        </div>
+    </header>
+
+        <!-- bagian banner -->
+        <section id="headerTitle">
+             <h1>Unlimited Holidays</h1>
+             <h3 id="subtitle">your confort is most important</h3>
+        </section>
+
+        <!-- bagian home -->
+        <section id="home">
+        <article id="article">
+        <br>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+
+        <!-- Full-width image with number and caption text -->
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="assets/wisata.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/wisata2.jpg" style="width:100%">
+            </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/wisata3.jpg" style="width:100%">
+            </div>
+
+        <!-- Next and previous buttoms -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <br>
+
+            <h5 id="headerTitle">Destinasi Anda Akan Seru Bersama Kami!</h5>
+            <p><div style="align:justify;"><img height="50"img src="profil.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"width="50"/> <br><b>Hasanah Dwi Putri Sinaga</b><br><i>Mahasiswi, 20</i><br></div>
+            </p>
+           </article>
+
+         <section id="form">
+            <h3 class="titleSubtitle">Contact Us</h3>
+            <h6 class="titleSubtitle">Marketing kami akan menghubungi anda kembali 1x 24 jam</h6>
+            <form action="">
+                <label for="yname">Your name:</label><br>
+                <input type="text" id="yname" name="yname"><br>
+                <label for="email">Email Addres:</label><br>
+                <input type="email" placeholder="example@gmail,com"><br>
+                <label for="destination">What are you interested in?</label><br>
+                <select name="destination" id="destination">
+                    <option value="raja ampat">Raja Ampat</option>
+                    <option value="bali">Bali</option>
+                    <option value="lombok">Lombok</option>
+                    <option value="danau toba">Danau Toba</option>
+                    <option value="toraja">Toraja</option>
+                    <option value="pulau belitung">Pulau Belitung</option>
+                    <option value="gunung bromo">Gunung Bromo</option>
+                </select>
+                <br>
+                <input type="submit" id="submitButton" value="Submit">
+            </form>
+         </section>
+        </section>
+        <br>
+        <h4>Benefit yang didapat?</h4>
+        <ol>
+            <li>Antar jemput bandara</li>
+            <li>Hotel dan breakfast</li>
+            <li>Air mineral selama tour</li>
+            <li>Tiket masuk wisata</li>
+            <li>Transportasi selama tour</li>
+        </ol>
+
+    </section>
+
+    <!--bagian Our Package-->
+        <section id="ourpackage">
+            <div class="container">
+                <section id="packageTitle">
+            <h2>OUR PACKAGE</h2>
+        </section>
+
+        <div class="flex-container">
+        <p><div style="align:justify;"><img height="20" src="lokasi.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"widht="30"/> <br><b>Raja Ampat</b><br>Surga petualangan dunia di ujung papua <br></div>
+        </p>
+        <p><div style="align:justify;"><img height="20" src="lokasi.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"widht="30"/> <br><b>Bali</b><br>Memiliki alam yang indah dan bervariatif <br></div>
+        </p>
+        <p><div style="align:justify;"><img height="20" src="lokasi.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"widht="30"/> <br><b>Lombok</b><br>Keramahan masyarakat dan keindahan alam sekitar <br></div>
+        </p>
+        <p><div style="align:justify;"><img height="20" src="lokasi.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"widht="30"/> <br><b>Danau Toba</b><br>Wisata budaya yang sangat identik sengan suku batak <br></div>
+        </p>
+        <p><div style="align:justify;"><img height="20" src="lokasi.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"widht="30"/> <br><b>Toraja</b><br>Simbol tongkonan sebagai rumah adat <br></div>
+        </p>
+        <p><div style="align:justify;"><img height="20" src="lokasi.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"widht="30"/> <br><b>Pulau Belitung</b><br>Tidak ramai bagai pulau pribadi <br></div>
+        </p>
+        <p><div style="align:justify;"><img height="20" src="lokasi.png"style="float:left; border:1px; padding:7px; margin: 0 8px 4px 0,"widht="30"/> <br><b>Gunung Bromo</b><br>Memiliki ratusan anak tangga untuk memudahkan pengunjung mencapai puncaknya <br></div>
+        </p>
+        </div>
+        <br>
+        </div>
+        </section>
+
+        <!-- bagian Call Us-->
+        <section id="callus">
+            <div class="container">
+        <section id="closingTitle">
+            <h3>Your Closing Argument Headline</h3>
+            <center><h5 id="subclosing"><i>Unlimited Holidays adalah agen perjalanan yang disiapkan untuk para wisatawan yang ingin tour ketempat yang diinginkan. Perjalanan akan menyenangkan bersama kami karna kami menyediakan fasilitas terbaik dan nyaman.</i><br>CP : +62 812 6547 1789</center></h5>
+            <h5 id="callTitle">CALL TO ACTION</h5>
+        </div>
+        </section>
+
+        <!-- bagian footer -->
+       <section id="akhir"><br>
+                <img src="assets/logo.png" width="60" height="60">
+                <h5>Terms of service   Privacy Policy </h5>
+                <h5>&copy; 2023 Hasanah Dwi Putri Sinaga</h5>
+        </section>
+
+        <script src="js/script.js"></script>
+</body>
+</html>
